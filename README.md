@@ -23,42 +23,32 @@ Se cargaron los datasets y se revisaron tipos de datos y estructura general para
 2. **Identificación de problemas de calidad**
 Se detectaron valores nulos, centinelas y fechas fuera de rango, generando una lista priorizada de problemas que podrían afectar el análisis.
 
-**Limpieza de datos**
-
+3. **Limpieza de datos**
 Se reemplazaron valores centinela, se corrigieron formatos de fecha y se aplicaron reglas para manejar valores faltantes.
 
-**Estadística descriptiva (summary statistics)**
-
+4. **Estadística descriptiva (summary statistics)**
 Se analizaron medidas como media, mediana y percentiles para entender el comportamiento típico y extremo de las variables.
 
-**Visualización y detección de outliers**
-
+5. **Visualización y detección de outliers**
 Se utilizaron histogramas y boxplots para identificar sesgos, patrones de uso y valores atípicos.
 
-**Segmentación de clientes**
-
+6. **Segmentación de clientes**
 Se crearon segmentos basados en edad y nivel de uso, y se analizaron sus proporciones mediante gráficos.
 
-**Insights ejecutivos**
-
+7. **Insights ejecutivos**
 Se elaboraron conclusiones y recomendaciones orientadas a decisiones de negocio.
 
-**Publicación del proyecto**
-
+8. **Publicación del proyecto**
 Se preparó el notebook y el README para su publicación en GitHub, garantizando reproducibilidad.
 
 
 ▶️ Cómo ejecutar el notebook
 
-El notebook puede ejecutarse fácilmente en Google Colab, sin necesidad de instalar software adicional en el equipo. Para ello, siga estos pasos:
-
-Acceda a Google Colab en el siguiente enlace: https://colab.research.google.com/
-
-Seleccione la opción “File” → “Upload notebook”.
-
-Cargue el archivo del proyecto en formato .ipynb.
-
-Ejecute las celdas en orden, desde la carga de datos hasta la sección de conclusiones.
+1. El notebook puede ejecutarse fácilmente en Google Colab, sin necesidad de instalar software adicional en el equipo. Para ello, siga estos pasos:
+2. Acceda a Google Colab en el siguiente enlace: https://colab.research.google.com/
+3. Seleccione la opción “File” → “Upload notebook”.
+4. Cargue el archivo del proyecto en formato .ipynb.
+5. Ejecute las celdas en orden, desde la carga de datos hasta la sección de conclusiones.
 
 
 🔁 Guía de reproducción
@@ -68,5 +58,7 @@ Para reproducir el análisis:
 Asegúrese de tener los datasets (plans, users_latam, usage) disponibles.
 
 Ejecutar el notebook de forma secuencial sin omitir celdas.
+
 Verificar la instalación de librerías (pandas, numpy, matplotlib, seaborn).
+
 Mantener consistencia en los nombres de variables y columnas.
