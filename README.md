@@ -7,12 +7,11 @@ El objetivo de este proyecto es analizar el comportamiento de los usuarios de Co
 📁 **Datasets utilizados**
 
 Se utilizaron los siguientes conjuntos de datos:
+1. plans.csv: Catálogo de planes con sus precios y beneficios. 
 
-plans.csv: Catálogo de planes con sus precios y beneficios. 
+2. users_latam.csv: Información de cada usuario (datos personales, plan, fecha de registro, churn). 
 
-users_latam.csv: Información de cada usuario (datos personales, plan, fecha de registro, churn). 
-
-usage.csv: Actividad generada por los usuarios: llamadas, mensajes, duración, longitud. 
+3. usage.csv: Actividad generada por los usuarios: llamadas, mensajes, duración, longitud. 
 
 🔍 **Flujo del análisis**
 
