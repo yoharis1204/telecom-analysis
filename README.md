@@ -36,6 +36,18 @@ Se preparó el notebook y el README para su publicación en GitHub, garantizando
 El notebook puede ejecutarse fácilmente en Google Colab, sin necesidad de instalar software adicional en el equipo. Para ello, siga estos pasos:
 
 Acceda a Google Colab en el siguiente enlace: https://colab.research.google.com/
+
 Seleccione la opción “File” → “Upload notebook”.
+
 Cargue el archivo del proyecto en formato .ipynb.
+
 Ejecute las celdas en orden, desde la carga de datos hasta la sección de conclusiones.
+
+🔁 Guía de reproducción
+
+Para reproducir el análisis:
+
+Asegúrese de tener los datasets (plans, users_latam, usage) disponibles.
+Ejecutar el notebook de forma secuencial sin omitir celdas.
+Verificar la instalación de librerías (pandas, numpy, matplotlib, seaborn).
+Mantener consistencia en los nombres de variables y columnas.
