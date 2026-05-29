@@ -17,12 +17,10 @@ Se utilizaron los siguientes conjuntos de datos:
 
 El proyecto se desarrolló siguiendo el siguiente flujo estructurado:
 
-**Carga y exploración de datos**
-
+1. **Carga y exploración de datos**
 Se cargaron los datasets y se revisaron tipos de datos y estructura general para entender la información disponible.
 
-**Identificación de problemas de calidad**
-
+2. **Identificación de problemas de calidad**
 Se detectaron valores nulos, centinelas y fechas fuera de rango, generando una lista priorizada de problemas que podrían afectar el análisis.
 
 **Limpieza de datos**
